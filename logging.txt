@@ -1,0 +1,116 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -22.221199,
+        "lng": 44.445533
+    },
+    "accuracy": 50,
+    "name": "AAHouse",
+    "address": "World Cross Center",
+    "types": [
+        "shop",
+        "shoe",
+        "barber"
+    ],
+    "website": "https://jira.com",
+    "language": "English",
+    "phone_number": "111-222-3333"
+}
+HTTP/1.1 200 OK
+Date: Mon, 25 Jan 2021 00:56:06 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "8e74dbe4ac1bd815de8845c8d9f4a2b8",
+    "scope": "APP",
+    "reference": "36681d6e6cf10f44325a075ccb35542636681d6e6cf10f44325a075ccb355426",
+    "id": "36681d6e6cf10f44325a075ccb355426"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=8e74dbe4ac1bd815de8845c8d9f4a2b8
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=8e74dbe4ac1bd815de8845c8d9f4a2b8
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 25 Jan 2021 00:56:08 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 235
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-22.221199",
+        "longitude": "44.445533"
+    },
+    "accuracy": "50",
+    "name": "AAHouse",
+    "phone_number": "111-222-3333",
+    "address": "World Cross Center",
+    "types": "shop,shoe,barber",
+    "website": "https://jira.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "8e74dbe4ac1bd815de8845c8d9f4a2b8"
+}
+HTTP/1.1 200 OK
+Date: Mon, 25 Jan 2021 00:56:11 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
